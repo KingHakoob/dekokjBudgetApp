@@ -1,0 +1,151 @@
+/* Top Half Start */
+#appTitle {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#balanceValueDiv {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+}
+
+#balanceValue {
+    text-align: center;
+    font-size: 4rem;
+}
+/* Top Half End */
+
+/* Middle Buttons Start */
+#middleBtnRow {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.updateBudgetBtnCol {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+#updateBudgetBtn{
+    width: 60%;
+}
+
+.manageExpenseBtnCol {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+#manageExpensesBtn{
+    width: 60%;
+}
+
+.addExpenseBtnCol {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+#addExpenseBtn{
+    width: 60%;
+}
+/* Middle Buttons End */
+
+/* TansLog Start */
+#transLogRow {
+    border-top: 0.25rem solid black;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+#transLogCol {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 30rem;
+    overflow: scroll;
+}
+
+#transLogCol::-webkit-scrollbar{
+    display: none;
+}
+
+.transLogName {
+    margin-bottom: 0rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.transLogValue {
+    margin-bottom: 0rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.transLogBalDiv {
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.transLogExpenseDiv {
+    border-top: 0.1rem solid red;
+    border-bottom: 0.1rem solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.transLogExpenseRemovedDiv {
+    border-top: 0.1rem solid green;
+    border-bottom: 0.1rem solid green;
+    display: flex;
+    justify-content: space-between;
+}
+/* TansLog End */
+
+/* Manage Expenses Modal Start */
+.manageExpenseModalSpacing {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+}
+
+.manageExpenseNameCol {
+    display: flex;
+    justify-content: start;
+    overflow: hidden;
+}
+
+.manageExpenseValueCol {
+    display: flex;
+    justify-content: end;
+}
+
+.removeExpenseBtnCol {
+    display: flex;
+    justify-content: center;
+}
+
+.removeExpenseModalBtn {
+    width: 100%;
+}
+/* Manage Expenses Modal End */
